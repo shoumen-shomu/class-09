@@ -1,0 +1,57 @@
+/* All commom css satrt */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* All commom css end */
+
+/* hederpart start */
+#headerpart{
+    padding: 25px 0;
+    background: #fff8f3;
+}
+.logomenu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul li a{
+    color: #474747;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin: 0 35px;
+}
+/* button start */
+.menu #button{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    background: #FD6E0A;
+    padding: 20px 36px;
+    border-radius: 5px;
+    margin: 0 15px;
+}
+/* button end */
+/* hederpart end */
